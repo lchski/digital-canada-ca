@@ -6,4 +6,6 @@ LC_ALL="en_US.UTF-8" \
 bundle exec jekyll serve \
   --watch \
   --incremental \
+  --port 4001 \
+  --destination _site-fr \
   --config _config_fr.yml
